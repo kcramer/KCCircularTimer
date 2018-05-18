@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3651B9272B0F55532BFC8E90AC764B2E /* Pods-KCCircularTimerExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 190D091509E64D489AB9116DDEBAFD74 /* Pods-KCCircularTimerExample-dummy.m */; };
+		39D5F8F7C6434B9E7B03F0C9848EC1DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7110C370161915F7482558DB06A0C304 /* KCCircularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382ADCFCDA7E9FDDF3EC486A08B3A5A /* KCCircularTimer.swift */; };
+		78CA3AA4513E6296FA366CD6037A311C /* KCCircularTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9805CCA88BFCACCC996941304404505 /* KCCircularTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BA73F6E2F24DB67860236E4AFCCA18D /* Pods-KCCircularTimerExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 879BA91A4021C7103241114BE02D9D7C /* Pods-KCCircularTimerExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		834F2A645352044440FADF4059F1CCBF /* KCCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF301CDF14F9DD0CD4382105F22AEEE /* KCCircleLayer.swift */; };
+		90DDBD576963584D9EA73077F545EAA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E03E442819A72D81D43B9E854C9BCD7F /* KCCircularTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70354E1184352239CADD03451495DD04 /* KCCircularTimer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F91D6349EEF2E861E93C2B723B07C3EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72700E0B5E3C58D5CAAE0C86FE4233E1;
+			remoteInfo = KCCircularTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190D091509E64D489AB9116DDEBAFD74 /* Pods-KCCircularTimerExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KCCircularTimerExample-dummy.m"; sourceTree = "<group>"; };
+		1F74D67768CE091935B06B544C5ABA59 /* Pods-KCCircularTimerExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCCircularTimerExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		5066F30E0CE3526C07499E4B34CDC18F /* KCCircularTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KCCircularTimer.framework; path = KCCircularTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6458B6E9E98E12F5DEA606E9825F432F /* Pods-KCCircularTimerExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KCCircularTimerExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70354E1184352239CADD03451495DD04 /* KCCircularTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KCCircularTimer-dummy.m"; sourceTree = "<group>"; };
+		746BBE8FD92D2E9D0CA8AFD38C2FAFF0 /* KCCircularTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KCCircularTimer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		76CCC4635D433CB689B5C589AA31D087 /* KCCircularTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCCircularTimer.xcconfig; sourceTree = "<group>"; };
+		7AB6DB13D6B97D68C8E34E082040D08C /* Pods-KCCircularTimerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCCircularTimerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		7AE5D4ADC0BEB26ECB940A96D21DA3F3 /* KCCircularTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KCCircularTimer.modulemap; sourceTree = "<group>"; };
+		8187462AD83440FCDC34AA2D6704139B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879BA91A4021C7103241114BE02D9D7C /* Pods-KCCircularTimerExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KCCircularTimerExample-umbrella.h"; sourceTree = "<group>"; };
+		92B1AA55041F9813CEA9851237B8FF28 /* KCCircularTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCCircularTimer-prefix.pch"; sourceTree = "<group>"; };
+		9382ADCFCDA7E9FDDF3EC486A08B3A5A /* KCCircularTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCCircularTimer.swift; path = Sources/KCCircularTimer.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BEFDA4513A6B14F0E5D32060CFB2257 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B081F114BE1EBB9D75422974EBE14BC5 /* Pods-KCCircularTimerExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KCCircularTimerExample-frameworks.sh"; sourceTree = "<group>"; };
+		BBD3A20FA746DC8A5D351E310E17B21F /* Pods-KCCircularTimerExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KCCircularTimerExample-resources.sh"; sourceTree = "<group>"; };
+		C79DF4EB8BCC0842AC359AB5D1C6596A /* Pods-KCCircularTimerExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KCCircularTimerExample.modulemap"; sourceTree = "<group>"; };
+		CCF301CDF14F9DD0CD4382105F22AEEE /* KCCircleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KCCircleLayer.swift; path = Sources/KCCircleLayer.swift; sourceTree = "<group>"; };
+		DF86D93C4256B9B04E9B3E874EDDD4EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6049950EC82E9746D049675E9084AF9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EFA69692FD3814AC64B532AD2AD3A2BD /* Pods-KCCircularTimerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCCircularTimerExample.release.xcconfig"; sourceTree = "<group>"; };
+		F9805CCA88BFCACCC996941304404505 /* KCCircularTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCCircularTimer-umbrella.h"; sourceTree = "<group>"; };
+		FC8FD047176F37AF8B03F6D6CCE8871F /* Pods_KCCircularTimerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KCCircularTimerExample.framework; path = "Pods-KCCircularTimerExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		969A6280662CC41C6C043BEE0115527F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DDBD576963584D9EA73077F545EAA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C079ED5879CCE65F3F53143505434F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D5F8F7C6434B9E7B03F0C9848EC1DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25D5DA4F472917264450F92BCA6EAA34 /* Pods-KCCircularTimerExample */ = {
+			isa = PBXGroup;
+			children = (
+				8187462AD83440FCDC34AA2D6704139B /* Info.plist */,
+				C79DF4EB8BCC0842AC359AB5D1C6596A /* Pods-KCCircularTimerExample.modulemap */,
+				6458B6E9E98E12F5DEA606E9825F432F /* Pods-KCCircularTimerExample-acknowledgements.markdown */,
+				1F74D67768CE091935B06B544C5ABA59 /* Pods-KCCircularTimerExample-acknowledgements.plist */,
+				190D091509E64D489AB9116DDEBAFD74 /* Pods-KCCircularTimerExample-dummy.m */,
+				B081F114BE1EBB9D75422974EBE14BC5 /* Pods-KCCircularTimerExample-frameworks.sh */,
+				BBD3A20FA746DC8A5D351E310E17B21F /* Pods-KCCircularTimerExample-resources.sh */,
+				879BA91A4021C7103241114BE02D9D7C /* Pods-KCCircularTimerExample-umbrella.h */,
+				7AB6DB13D6B97D68C8E34E082040D08C /* Pods-KCCircularTimerExample.debug.xcconfig */,
+				EFA69692FD3814AC64B532AD2AD3A2BD /* Pods-KCCircularTimerExample.release.xcconfig */,
+			);
+			name = "Pods-KCCircularTimerExample";
+			path = "Target Support Files/Pods-KCCircularTimerExample";
+			sourceTree = "<group>";
+		};
+		439EE46802843329671BD4EA42BAEFD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5066F30E0CE3526C07499E4B34CDC18F /* KCCircularTimer.framework */,
+				FC8FD047176F37AF8B03F6D6CCE8871F /* Pods_KCCircularTimerExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4981E95AA42C07A2CF5FDD81F3D9CF0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF86D93C4256B9B04E9B3E874EDDD4EF /* Info.plist */,
+				7AE5D4ADC0BEB26ECB940A96D21DA3F3 /* KCCircularTimer.modulemap */,
+				76CCC4635D433CB689B5C589AA31D087 /* KCCircularTimer.xcconfig */,
+				70354E1184352239CADD03451495DD04 /* KCCircularTimer-dummy.m */,
+				92B1AA55041F9813CEA9851237B8FF28 /* KCCircularTimer-prefix.pch */,
+				F9805CCA88BFCACCC996941304404505 /* KCCircularTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "KCCircularTimerExample/Pods/Target Support Files/KCCircularTimer";
+			sourceTree = "<group>";
+		};
+		6B8A8551258EE4F8684F19059C8284ED /* KCCircularTimer */ = {
+			isa = PBXGroup;
+			children = (
+				CCF301CDF14F9DD0CD4382105F22AEEE /* KCCircleLayer.swift */,
+				9382ADCFCDA7E9FDDF3EC486A08B3A5A /* KCCircularTimer.swift */,
+				DA3F871BC89B1CE78DBCFB33003D7BE2 /* Pod */,
+				4981E95AA42C07A2CF5FDD81F3D9CF0F /* Support Files */,
+			);
+			name = KCCircularTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7398D8E4077908D70601E4BB8A2E3A16 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25D5DA4F472917264450F92BCA6EAA34 /* Pods-KCCircularTimerExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				80C65324A429E09E8048E2DD057B0F63 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				439EE46802843329671BD4EA42BAEFD6 /* Products */,
+				7398D8E4077908D70601E4BB8A2E3A16 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80C65324A429E09E8048E2DD057B0F63 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A8551258EE4F8684F19059C8284ED /* KCCircularTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA3F871BC89B1CE78DBCFB33003D7BE2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				746BBE8FD92D2E9D0CA8AFD38C2FAFF0 /* KCCircularTimer.podspec */,
+				E6049950EC82E9746D049675E9084AF9 /* LICENSE */,
+				9BEFDA4513A6B14F0E5D32060CFB2257 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4BBEDE778C82B59A97592D7102AE6E00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CA3AA4513E6296FA366CD6037A311C /* KCCircularTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54CD179A66F3CFF600CE870E3D92A78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA73F6E2F24DB67860236E4AFCCA18D /* Pods-KCCircularTimerExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		72700E0B5E3C58D5CAAE0C86FE4233E1 /* KCCircularTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32395E04CBEF8230F39FC17875564CF /* Build configuration list for PBXNativeTarget "KCCircularTimer" */;
+			buildPhases = (
+				96A146814338E7D41A26E70D975E50C7 /* Sources */,
+				969A6280662CC41C6C043BEE0115527F /* Frameworks */,
+				4BBEDE778C82B59A97592D7102AE6E00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCCircularTimer;
+			productName = KCCircularTimer;
+			productReference = 5066F30E0CE3526C07499E4B34CDC18F /* KCCircularTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D44D618E22789F44C1AA8DA5DC198932 /* Pods-KCCircularTimerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC1C2154F43F9708DFBAAB396230470 /* Build configuration list for PBXNativeTarget "Pods-KCCircularTimerExample" */;
+			buildPhases = (
+				84B401709EF543F90930DCBCB5E49325 /* Sources */,
+				C079ED5879CCE65F3F53143505434F0D /* Frameworks */,
+				A54CD179A66F3CFF600CE870E3D92A78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12BD0A2C7AAC1DC62B24479C239547C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-KCCircularTimerExample";
+			productName = "Pods-KCCircularTimerExample";
+			productReference = FC8FD047176F37AF8B03F6D6CCE8871F /* Pods_KCCircularTimerExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 439EE46802843329671BD4EA42BAEFD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72700E0B5E3C58D5CAAE0C86FE4233E1 /* KCCircularTimer */,
+				D44D618E22789F44C1AA8DA5DC198932 /* Pods-KCCircularTimerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B401709EF543F90930DCBCB5E49325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3651B9272B0F55532BFC8E90AC764B2E /* Pods-KCCircularTimerExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A146814338E7D41A26E70D975E50C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834F2A645352044440FADF4059F1CCBF /* KCCircleLayer.swift in Sources */,
+				E03E442819A72D81D43B9E854C9BCD7F /* KCCircularTimer-dummy.m in Sources */,
+				7110C370161915F7482558DB06A0C304 /* KCCircularTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12BD0A2C7AAC1DC62B24479C239547C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KCCircularTimer;
+			target = 72700E0B5E3C58D5CAAE0C86FE4233E1 /* KCCircularTimer */;
+			targetProxy = F91D6349EEF2E861E93C2B723B07C3EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D1AA226568ED1FD69EE89A02C202222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CCC4635D433CB689B5C589AA31D087 /* KCCircularTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KCCircularTimer/KCCircularTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KCCircularTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KCCircularTimer/KCCircularTimer.modulemap";
+				PRODUCT_MODULE_NAME = KCCircularTimer;
+				PRODUCT_NAME = KCCircularTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B2EC1D7A47E28BC55722364F07069AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		22C76BDB00C01CCB43023C1E9E313044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CCC4635D433CB689B5C589AA31D087 /* KCCircularTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KCCircularTimer/KCCircularTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KCCircularTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KCCircularTimer/KCCircularTimer.modulemap";
+				PRODUCT_MODULE_NAME = KCCircularTimer;
+				PRODUCT_NAME = KCCircularTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A4B48B2D79B8BEAACA512EC871E6FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B108BBC612D31D9FE237D899C5B5E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB6DB13D6B97D68C8E34E082040D08C /* Pods-KCCircularTimerExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KCCircularTimerExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KCCircularTimerExample/Pods-KCCircularTimerExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CDC91020FA3E4066B739701FF67250E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA69692FD3814AC64B532AD2AD3A2BD /* Pods-KCCircularTimerExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KCCircularTimerExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KCCircularTimerExample/Pods-KCCircularTimerExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4B48B2D79B8BEAACA512EC871E6FC5 /* Debug */,
+				1B2EC1D7A47E28BC55722364F07069AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC1C2154F43F9708DFBAAB396230470 /* Build configuration list for PBXNativeTarget "Pods-KCCircularTimerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B108BBC612D31D9FE237D899C5B5E33 /* Debug */,
+				8CDC91020FA3E4066B739701FF67250E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32395E04CBEF8230F39FC17875564CF /* Build configuration list for PBXNativeTarget "KCCircularTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C76BDB00C01CCB43023C1E9E313044 /* Debug */,
+				0D1AA226568ED1FD69EE89A02C202222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

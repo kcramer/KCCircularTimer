@@ -1,0 +1,6 @@
+framework module KCCircularTimer {
+  umbrella header "KCCircularTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

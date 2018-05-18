@@ -1,0 +1,6 @@
+framework module Pods_KCCircularTimerExample {
+  umbrella header "Pods-KCCircularTimerExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
