@@ -1,0 +1,16 @@
+PODS:
+  - KCCircularTimer (0.1.0)
+
+DEPENDENCIES:
+  - KCCircularTimer (from `../`)
+
+EXTERNAL SOURCES:
+  KCCircularTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KCCircularTimer: e0bce996aad9dd2bed392e40cda8cdd58873eaa5
+
+PODFILE CHECKSUM: e236a9460e3e08ce92647d284adc96e617d06a05
+
+COCOAPODS: 1.5.0

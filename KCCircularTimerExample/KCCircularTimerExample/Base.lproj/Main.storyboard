@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kwz-4G-wym">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tZi-W8-doj">
+            <objects>
+                <viewController id="GVa-S7-ml1" customClass="ViewController" customModule="KCCircularTimerExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7sn-fP-4pG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="ZRr-Py-yqs">
+                                <rect key="frame" x="5" y="79" width="365" height="483.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Examples" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9AB-YO-l3G">
+                                        <rect key="frame" x="124.5" y="0.0" width="116.5" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="255" verticalCompressionResistancePriority="755" distribution="fillProportionally" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="eo3-Rn-vRI">
+                                        <rect key="frame" x="70" y="83.5" width="225" height="100"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2jb-ty-JQQ" customClass="KCCircularTimer" customModule="KCCircularTimer">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" red="1" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="2jb-ty-JQQ" secondAttribute="height" multiplier="1:1" id="RMv-Ag-4Rw"/>
+                                                    <constraint firstAttribute="height" constant="100" id="d0h-v0-PLk"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentValue">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                        <real key="value" value="60"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unJ-og-AN4" customClass="KCCircularTimer" customModule="KCCircularTimer">
+                                                <rect key="frame" x="125" y="0.0" width="100" height="100"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="MMa-aj-2Ue"/>
+                                                    <constraint firstAttribute="width" secondItem="unJ-og-AN4" secondAttribute="height" multiplier="1:1" id="uQZ-c8-lmH"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentValue">
+                                                        <real key="value" value="31"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                        <real key="value" value="60"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="progressColor">
+                                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
+                                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="decimalPlaces">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" verticalCompressionResistancePriority="753" distribution="fillProportionally" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="8l9-AD-Yt4">
+                                        <rect key="frame" x="70" y="233.5" width="225" height="100"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3sK-MU-2Cw" customClass="KCCircularTimer" customModule="KCCircularTimer">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="6FK-f2-ozO"/>
+                                                    <constraint firstAttribute="width" secondItem="3sK-MU-2Cw" secondAttribute="height" multiplier="1:1" id="muo-zD-ESH"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentValue">
+                                                        <real key="value" value="42"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                        <real key="value" value="60"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleFactor">
+                                                        <real key="value" value="0.02"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Menlo"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="57L-SR-gPv" customClass="KCCircularTimer" customModule="KCCircularTimer">
+                                                <rect key="frame" x="125" y="0.0" width="100" height="100"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" red="0.40000000000000002" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="57L-SR-gPv" secondAttribute="height" multiplier="1:1" id="BpL-8M-Ggb"/>
+                                                    <constraint firstAttribute="width" constant="100" id="pH2-Nm-iaA"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentValue">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderFactor">
+                                                        <real key="value" value="0.02"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="insetFactor">
+                                                        <real key="value" value="0.25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="decimalPlaces">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleFactor">
+                                                        <real key="value" value="0.02"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="FYg-Yk-6ZP">
+                                        <rect key="frame" x="132.5" y="383.5" width="100" height="100"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FSF-DP-eep" customClass="KCCircularTimer" customModule="KCCircularTimer">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="200-kI-OtW"/>
+                                                    <constraint firstAttribute="width" secondItem="FSF-DP-eep" secondAttribute="height" multiplier="1:1" id="9iC-XN-CiO"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentValue">
+                                                        <real key="value" value="95"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                        <real key="value" value="360"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderFactor">
+                                                        <real key="value" value="0.14999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleAlpha">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clockwise" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
+                                                        <color key="value" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="0.50452161819999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="progressColor">
+                                                        <color key="value" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleFactor">
+                                                        <real key="value" value="0.14999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="ZRr-Py-yqs" firstAttribute="top" secondItem="e1X-NW-zeq" secondAttribute="top" constant="15" id="VJo-mP-yjL"/>
+                            <constraint firstItem="ZRr-Py-yqs" firstAttribute="leading" secondItem="e1X-NW-zeq" secondAttribute="leading" constant="5" id="h8M-88-gQH"/>
+                            <constraint firstItem="e1X-NW-zeq" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ZRr-Py-yqs" secondAttribute="bottom" constant="5" id="pso-fF-AB2"/>
+                            <constraint firstItem="e1X-NW-zeq" firstAttribute="trailing" secondItem="ZRr-Py-yqs" secondAttribute="trailing" constant="5" id="uOG-ax-wEZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="e1X-NW-zeq"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="cZ2-8m-cGd" appends="YES" id="bN7-b3-FDS"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="bCu-9Q-Dbx">
+                        <barButtonItem key="rightBarButtonItem" title="More" id="2O0-So-9aS">
+                            <connections>
+                                <segue destination="pbU-0y-1f5" kind="show" id="mT9-g7-5Zo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="timer11" destination="2jb-ty-JQQ" id="ptj-Q6-cY0"/>
+                        <outlet property="timer12" destination="unJ-og-AN4" id="BJN-vA-o0Q"/>
+                        <outlet property="timer13" destination="3sK-MU-2Cw" id="XyH-Gs-tS0"/>
+                        <outlet property="timer21" destination="FSF-DP-eep" id="pUc-o8-rvY"/>
+                        <outlet property="timer22" destination="57L-SR-gPv" id="cK5-Hl-bwH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y7J-Ut-KIC" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="cZ2-8m-cGd">
+                    <connections>
+                        <action selector="viewTapped:" destination="GVa-S7-ml1" id="lbb-uk-VV1"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1080.8" y="133.5832083958021"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="OEB-LE-2Ta">
+            <objects>
+                <viewController id="pbU-0y-1f5" customClass="SecondViewController" customModule="KCCircularTimerExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LEx-pW-OVu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="3Q8-HO-K7d">
+                                <rect key="frame" x="5" y="69" width="365" height="433.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Examples" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vaw-hS-QsS">
+                                        <rect key="frame" x="124.5" y="0.0" width="116.5" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ChL-ay-SPX">
+                                        <rect key="frame" x="27.5" y="83.5" width="310" height="150"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" verticalHuggingPriority="254" translatesAutoresizingMaskIntoConstraints="NO" id="m3P-jc-Hps" customClass="KCCircularTimer" customModule="KCCircularTimer">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="2jS-MR-3YQ"/>
+                                                    <constraint firstAttribute="width" secondItem="m3P-jc-Hps" secondAttribute="height" multiplier="1:1" id="viM-w5-xOi"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentValue">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                        <real key="value" value="60"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderFactor">
+                                                        <real key="value" value="0.10000000000000001"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleAlpha">
+                                                        <real key="value" value="0.10000000000000001"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleFactor">
+                                                        <real key="value" value="0.10000000000000001"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" horizontalHuggingPriority="255" translatesAutoresizingMaskIntoConstraints="NO" id="HGC-SH-37m" customClass="KCCircularTimer" customModule="KCCircularTimer">
+                                                <rect key="frame" x="160" y="0.0" width="150" height="150"/>
+                                                <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="HGC-SH-37m" secondAttribute="height" multiplier="1:1" id="G9Z-VA-dX4"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentValue">
+                                                        <real key="value" value="72"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                        <real key="value" value="100"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderFactor">
+                                                        <real key="value" value="0.070000000000000007"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleAlpha">
+                                                        <real key="value" value="0.10000000000000001"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="circleFactor">
+                                                        <real key="value" value="0.059999999999999998"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clockwise" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="nnl-2a-7RP">
+                                        <rect key="frame" x="82.5" y="283.5" width="200" height="150"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9bF-G9-E7p" customClass="KCCircularTimer" customModule="KCCircularTimer">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="150"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="XDI-PC-YaF" userLabel="width = 100"/>
+                                                    <constraint firstAttribute="height" constant="150" id="w2b-lK-M0K" userLabel="height = 150"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentValue">
+                                                        <real key="value" value="45"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                        <real key="value" value="60"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOR-Tu-RTA" customClass="KCCircularTimer" customModule="KCCircularTimer">
+                                                <rect key="frame" x="125" y="0.0" width="75" height="150"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="8xh-Lo-fh0" userLabel="height = 150"/>
+                                                    <constraint firstAttribute="width" constant="75" id="tBY-mT-P3R" userLabel="width = 100"/>
+                                                </constraints>
+                                                <viewLayoutGuide key="safeArea" id="FAh-gT-d07"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="currentValue">
+                                                        <real key="value" value="45"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                        <real key="value" value="60"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showNumber" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderFactor">
+                                                        <real key="value" value="0.074999999999999997"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="3Q8-HO-K7d" firstAttribute="top" secondItem="qEI-vj-eaR" secondAttribute="top" constant="5" id="BuS-wl-f1x"/>
+                            <constraint firstItem="3Q8-HO-K7d" firstAttribute="leading" secondItem="qEI-vj-eaR" secondAttribute="leading" constant="5" id="Iq8-GI-E8a"/>
+                            <constraint firstItem="qEI-vj-eaR" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="3Q8-HO-K7d" secondAttribute="bottom" constant="5" id="e8j-Lf-lOX"/>
+                            <constraint firstItem="qEI-vj-eaR" firstAttribute="trailing" secondItem="3Q8-HO-K7d" secondAttribute="trailing" constant="5" id="fat-rM-WKW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qEI-vj-eaR"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="aEf-BN-0bS" appends="YES" id="Y61-9y-gu1"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="timer31" destination="m3P-jc-Hps" id="a6P-Pi-7e5"/>
+                        <outlet property="timer32" destination="HGC-SH-37m" id="fau-ii-MwL"/>
+                        <outlet property="timer41" destination="9bF-G9-E7p" id="Me7-Cq-RD4"/>
+                        <outlet property="timer42" destination="fOR-Tu-RTA" id="DEB-Bb-LEo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IzF-yc-uzc" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="aEf-BN-0bS">
+                    <connections>
+                        <action selector="viewTapped:" destination="pbU-0y-1f5" id="Pqd-r6-zun"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1862" y="134"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Jo7-dN-HEg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kwz-4G-wym" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="q0Y-Gq-Ijc">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GVa-S7-ml1" kind="relationship" relationship="rootViewController" id="Bff-KR-Q1d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lVi-Xy-AuO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="350" y="134"/>
+        </scene>
+    </scenes>
+</document>
