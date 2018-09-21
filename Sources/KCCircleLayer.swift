@@ -4,6 +4,15 @@
 //  Created by Kevin on 12/19/17.
 //  Copyright © 2018 Kevin. All rights reserved.
 
+import CoreGraphics
+import UIKit
+
+#if swift(>=4.2)
+    typealias AttributedStringKey = NSAttributedString.Key
+#else
+    typealias AttributedStringKey = NSAttributedStringKey
+#endif
+
 final class KCCircleLayer: CALayer {
     // MARK: Constants
     let topPoint: CGFloat = -0.5 * .pi
@@ -153,11 +162,10 @@ final class KCCircleLayer: CALayer {
         paragraphStyle.lineBreakMode = .byClipping
         paragraphStyle.alignment = .center
         let textFontSize = fontSize > 0 ? fontSize : rect.height / 1.6
-        let textAttributes = [
-            NSAttributedStringKey.font: font.withSize(textFontSize),
-            NSAttributedStringKey.paragraphStyle: paragraphStyle,
-            NSAttributedStringKey.foregroundColor:
-                UIColor(cgColor: progressColor.cgColor)
+        let textAttributes: [AttributedStringKey: Any] = [
+            .font: font.withSize(textFontSize),
+            .paragraphStyle: paragraphStyle,
+            .foregroundColor: UIColor(cgColor: progressColor.cgColor)
         ]
         let size = string.size(withAttributes: textAttributes)
         let point = CGPoint(x: rect.midX - size.width / 2,
