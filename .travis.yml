@@ -1,5 +1,7 @@
-osx_image: xcode9.4
-language: objective-c
+matrix:
+  include:
+    - { osx_image: xcode9.4, env: 'DST="platform=iOS Simulator,OS=11.4,name=iPhone 8"', os: osx, language: objective-c }
+    - { osx_image: xcode10, env: 'DST="platform=iOS Simulator,OS=12.0,name=iPhone 8"', os: osx, language: objective-c }
 
 script:
 - set -o pipefail &&
@@ -7,8 +9,7 @@ script:
   -enableCodeCoverage YES 
   -workspace KCCircularTimer.xcworkspace 
   -scheme Tests 
-  -sdk iphonesimulator11.4
-  -destination "OS=11.4,name=iPhone 8"
+  -destination "$DST"
   ONLY_ACTIVE_ARCH=NO 
   test | xcpretty
 - pod lib lint
