@@ -4,6 +4,8 @@
 //  Created by Kevin on 12/19/17.
 //  Copyright © 2018 Kevin. All rights reserved.
 
+import UIKit
+
 @IBDesignable public class KCCircularTimer: UIView {
     // MARK: Initializers
     public override init(frame: CGRect) {
@@ -237,7 +239,11 @@
         animation.fromValue = start
         currentValue = end
         animation.toValue = end
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        #if swift(>=4.2)
+            animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
+        #else
+            animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        #endif
         animation.isRemovedOnCompletion = isRemovedOnCompletion ?? true
         circleLayer.add(animation, forKey: Constants.currentValue)
         CATransaction.commit()

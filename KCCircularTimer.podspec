@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KCCircularTimer'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple circular timer usable with Interface Builder in Xcode.'
   s.description      = <<-DESC
 KCCircularTimer is a simple, configurable circular timer that is usable in Interface Builder in Xcode.
