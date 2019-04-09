@@ -242,7 +242,7 @@ import UIKit
         #if swift(>=4.2)
             animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         #else
-            animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+            animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         #endif
         animation.isRemovedOnCompletion = isRemovedOnCompletion ?? true
         circleLayer.add(animation, forKey: Constants.currentValue)

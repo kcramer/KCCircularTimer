@@ -14,10 +14,11 @@
 		0A4B6AD920B796B300C6D7DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B6AD720B796B300C6D7DC /* Main.storyboard */; };
 		0A4B6ADB20B796B500C6D7DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B6ADA20B796B500C6D7DC /* Assets.xcassets */; };
 		0A4B6ADE20B796B500C6D7DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B6ADC20B796B500C6D7DC /* LaunchScreen.storyboard */; };
+		0A95C85E225C1AFB00F7C58A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0A95C85D225C1AFB00F7C58A /* Podfile */; };
 		0AF9536A208315BC004B2767 /* KCCircularTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF95368208315BC004B2767 /* KCCircularTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AF953722083164B004B2767 /* KCCircularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF953702083164B004B2767 /* KCCircularTimer.swift */; };
 		0AF953732083164B004B2767 /* KCCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF953712083164B004B2767 /* KCCircleLayer.swift */; };
-		8B8668AFCA159EBDD9F5DBEE /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50873802E55571AD07C768BE /* Pods_Tests.framework */; };
+		1C2465DA2BAAE799D73511FB /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C0D5A787737077129469C3 /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,13 +49,14 @@
 		0A4B6ADA20B796B500C6D7DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A4B6ADD20B796B500C6D7DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A4B6ADF20B796B500C6D7DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A95C85D225C1AFB00F7C58A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0AF95365208315BC004B2767 /* KCCircularTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCCircularTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF95368208315BC004B2767 /* KCCircularTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCCircularTimer.h; sourceTree = "<group>"; };
 		0AF95369208315BC004B2767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AF953702083164B004B2767 /* KCCircularTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCircularTimer.swift; sourceTree = "<group>"; };
 		0AF953712083164B004B2767 /* KCCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCircleLayer.swift; sourceTree = "<group>"; };
 		4A09F08B3EF1DC5CD9DC5F36 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		50873802E55571AD07C768BE /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C0D5A787737077129469C3 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B468DB4388059E12508DF719 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A4B6ACB20B78BF000C6D7DC /* KCCircularTimer.framework in Frameworks */,
-				8B8668AFCA159EBDD9F5DBEE /* Pods_Tests.framework in Frameworks */,
+				1C2465DA2BAAE799D73511FB /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +112,7 @@
 		0AF9535B208315BC004B2767 = {
 			isa = PBXGroup;
 			children = (
+				0A95C85D225C1AFB00F7C58A /* Podfile */,
 				0AF95367208315BC004B2767 /* Sources */,
 				0A4B6A9020B701FE00C6D7DC /* Tests */,
 				0A4B6AD220B796B300C6D7DC /* TestApp */,
@@ -152,7 +155,7 @@
 		E3DF842886A4886590E68023 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				50873802E55571AD07C768BE /* Pods_Tests.framework */,
+				85C0D5A787737077129469C3 /* libPods-Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,7 +182,6 @@
 				0A4B6A8B20B701FE00C6D7DC /* Sources */,
 				0A4B6A8C20B701FE00C6D7DC /* Frameworks */,
 				0A4B6A8D20B701FE00C6D7DC /* Resources */,
-				D140871B44F4BE94E9DB5878 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,14 +241,16 @@
 				TargetAttributes = {
 					0A4B6A8E20B701FE00C6D7DC = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 0A4B6AD020B796B300C6D7DC;
 					};
 					0A4B6AD020B796B300C6D7DC = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1020;
 					};
 					0AF95364208315BC004B2767 = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -292,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A95C85E225C1AFB00F7C58A /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,24 +319,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D140871B44F4BE94E9DB5878 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -404,6 +391,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PX5CM3FMQR;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -413,7 +401,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.kevincramer.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TestApp;
 			};
@@ -425,6 +413,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PX5CM3FMQR;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,7 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.kevincramer.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TestApp;
 			};
@@ -453,7 +442,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.kevincramer.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -471,7 +460,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.kevincramer.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -619,7 +608,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -646,7 +635,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.kevincramer.KCCircularTimer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
