@@ -7,20 +7,13 @@
 //
 
 import XCTest
-import FBSnapshotTestCase
+import SnapshotTesting
 import KCCircularTimer
 
-class Tests: FBSnapshotTestCase {
+class Tests: XCTestCase {
         
     override func setUp() {
         super.setUp()
-        
-        // Continue even if a failure occurs.
-        continueAfterFailure = true
-        // UI tests must launch the application that they test.
-        XCUIApplication().launch()
-        // Set to true to update the reference images.
-        recordMode = false
     }
     
     override func tearDown() {
@@ -33,6 +26,7 @@ class Tests: FBSnapshotTestCase {
         view.maximumValue = 60
         view.currentValue = 45
         view.tintColor = .blue
-        FBSnapshotVerifyView(view)
+        // Uncomment the record parameter to update the reference image.
+        assertSnapshot(matching: view, as: .image /*, record: true */)
     }
 }
