@@ -20,7 +20,10 @@ let package = Package(
         ),
         .testTarget(
             name: "KCCircularTimerTests",
-            dependencies: ["KCCircularTimer", "SnapshotTesting"]
+            dependencies: [
+                "KCCircularTimer",
+                "https://github.com/pointfreeco/swift-snapshot-testing"
+            ]
         )
     ]
 )
