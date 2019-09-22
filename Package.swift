@@ -22,7 +22,7 @@ let package = Package(
             name: "KCCircularTimerTests",
             dependencies: [
                 "KCCircularTimer",
-                "https://github.com/pointfreeco/swift-snapshot-testing.git"
+                .package(url: "https://github.com/pointfreeco/swift-snapshot-testing.git", from: "1.5.0")
             ]
         )
     ]
