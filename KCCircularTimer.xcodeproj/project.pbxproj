@@ -14,6 +14,7 @@
 		0A4B6AD920B796B300C6D7DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B6AD720B796B300C6D7DC /* Main.storyboard */; };
 		0A4B6ADB20B796B500C6D7DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B6ADA20B796B500C6D7DC /* Assets.xcassets */; };
 		0A4B6ADE20B796B500C6D7DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B6ADC20B796B500C6D7DC /* LaunchScreen.storyboard */; };
+		0A7F9CC6233732BB00AE40AF /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F9CC5233732BB00AE40AF /* Package.swift */; };
 		0A95C85E225C1AFB00F7C58A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0A95C85D225C1AFB00F7C58A /* Podfile */; };
 		0AF9536A208315BC004B2767 /* KCCircularTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF95368208315BC004B2767 /* KCCircularTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AF953722083164B004B2767 /* KCCircularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF953702083164B004B2767 /* KCCircularTimer.swift */; };
@@ -49,6 +50,7 @@
 		0A4B6ADA20B796B500C6D7DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A4B6ADD20B796B500C6D7DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A4B6ADF20B796B500C6D7DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7F9CC5233732BB00AE40AF /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		0A95C85D225C1AFB00F7C58A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0AF95365208315BC004B2767 /* KCCircularTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCCircularTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF95368208315BC004B2767 /* KCCircularTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCCircularTimer.h; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		0AF9535B208315BC004B2767 = {
 			isa = PBXGroup;
 			children = (
+				0A7F9CC5233732BB00AE40AF /* Package.swift */,
 				0A95C85D225C1AFB00F7C58A /* Podfile */,
 				0AF95367208315BC004B2767 /* Sources */,
 				0A4B6A9020B701FE00C6D7DC /* Tests */,
@@ -345,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7F9CC6233732BB00AE40AF /* Package.swift in Sources */,
 				0AF953722083164B004B2767 /* KCCircularTimer.swift in Sources */,
 				0AF953732083164B004B2767 /* KCCircleLayer.swift in Sources */,
 			);
