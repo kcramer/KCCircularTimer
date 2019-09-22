@@ -12,7 +12,9 @@ let package = Package(
             targets: ["KCCircularTimer"]
         )
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/pointfreeco/swift-snapshot-testing.git", from: "1.5.0")
+    ],
     targets: [
         .target(
             name: "KCCircularTimer",
@@ -22,7 +24,7 @@ let package = Package(
             name: "KCCircularTimerTests",
             dependencies: [
                 "KCCircularTimer",
-                .package(url: "https://github.com/pointfreeco/swift-snapshot-testing.git", from: "1.5.0")
+                "SnapshotTesting"
             ]
         )
     ]
