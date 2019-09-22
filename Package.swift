@@ -16,13 +16,11 @@ let package = Package(
     targets: [
         .target(
             name: "KCCircularTimer",
-            dependencies: [],
-            path: "KCCircularTimer"
+            dependencies: []
         ),
         .testTarget(
-            name: "Tests",
-            dependencies: ["KCCircularTimer", "SnapshotTesting"],
-            path: "Tests"
+            name: "KCCircularTimerTests",
+            dependencies: ["KCCircularTimer", "SnapshotTesting"]
         )
     ]
 )

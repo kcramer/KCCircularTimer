@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A4B6A9220B701FE00C6D7DC /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B6A9120B701FE00C6D7DC /* Tests.swift */; };
 		0A4B6ACB20B78BF000C6D7DC /* KCCircularTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF95365208315BC004B2767 /* KCCircularTimer.framework */; };
 		0A4B6AD420B796B300C6D7DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B6AD320B796B300C6D7DC /* AppDelegate.swift */; };
 		0A4B6AD620B796B300C6D7DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B6AD520B796B300C6D7DC /* ViewController.swift */; };
 		0A4B6AD920B796B300C6D7DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B6AD720B796B300C6D7DC /* Main.storyboard */; };
 		0A4B6ADB20B796B500C6D7DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B6ADA20B796B500C6D7DC /* Assets.xcassets */; };
 		0A4B6ADE20B796B500C6D7DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B6ADC20B796B500C6D7DC /* LaunchScreen.storyboard */; };
-		0A7F9CC6233732BB00AE40AF /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F9CC5233732BB00AE40AF /* Package.swift */; };
+		0A7F9CCD2337EC3C00AE40AF /* KCCircularTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7F9CC92337EC3B00AE40AF /* KCCircularTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A7F9CCE2337EC3C00AE40AF /* KCCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F9CCA2337EC3B00AE40AF /* KCCircleLayer.swift */; };
+		0A7F9CCF2337EC3C00AE40AF /* KCCircularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F9CCB2337EC3B00AE40AF /* KCCircularTimer.swift */; };
+		0A7F9CD72337EC5800AE40AF /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F9CD22337EC5800AE40AF /* Tests.swift */; };
 		0A95C85E225C1AFB00F7C58A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0A95C85D225C1AFB00F7C58A /* Podfile */; };
-		0AF9536A208315BC004B2767 /* KCCircularTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF95368208315BC004B2767 /* KCCircularTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AF953722083164B004B2767 /* KCCircularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF953702083164B004B2767 /* KCCircularTimer.swift */; };
-		0AF953732083164B004B2767 /* KCCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF953712083164B004B2767 /* KCCircleLayer.swift */; };
 		1C2465DA2BAAE799D73511FB /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C0D5A787737077129469C3 /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +40,6 @@
 
 /* Begin PBXFileReference section */
 		0A4B6A8F20B701FE00C6D7DC /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A4B6A9120B701FE00C6D7DC /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		0A4B6A9320B701FE00C6D7DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A4B6AD120B796B300C6D7DC /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4B6AD320B796B300C6D7DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A4B6AD520B796B300C6D7DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,12 +48,14 @@
 		0A4B6ADD20B796B500C6D7DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A4B6ADF20B796B500C6D7DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A7F9CC5233732BB00AE40AF /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		0A7F9CC92337EC3B00AE40AF /* KCCircularTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCCircularTimer.h; sourceTree = "<group>"; };
+		0A7F9CCA2337EC3B00AE40AF /* KCCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCircleLayer.swift; sourceTree = "<group>"; };
+		0A7F9CCB2337EC3B00AE40AF /* KCCircularTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCircularTimer.swift; sourceTree = "<group>"; };
+		0A7F9CCC2337EC3B00AE40AF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7F9CD22337EC5800AE40AF /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		0A7F9CD32337EC5800AE40AF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A95C85D225C1AFB00F7C58A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0AF95365208315BC004B2767 /* KCCircularTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCCircularTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AF95368208315BC004B2767 /* KCCircularTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCCircularTimer.h; sourceTree = "<group>"; };
-		0AF95369208315BC004B2767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AF953702083164B004B2767 /* KCCircularTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCircularTimer.swift; sourceTree = "<group>"; };
-		0AF953712083164B004B2767 /* KCCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCircleLayer.swift; sourceTree = "<group>"; };
 		4A09F08B3EF1DC5CD9DC5F36 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		85C0D5A787737077129469C3 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B468DB4388059E12508DF719 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,8 +91,7 @@
 		0A4B6A9020B701FE00C6D7DC /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0A4B6A9120B701FE00C6D7DC /* Tests.swift */,
-				0A4B6A9320B701FE00C6D7DC /* Info.plist */,
+				0A7F9CD12337EC5800AE40AF /* KCCircularTimerTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -109,6 +107,26 @@
 				0A4B6ADF20B796B500C6D7DC /* Info.plist */,
 			);
 			path = TestApp;
+			sourceTree = "<group>";
+		};
+		0A7F9CC82337EC3B00AE40AF /* KCCircularTimer */ = {
+			isa = PBXGroup;
+			children = (
+				0A7F9CC92337EC3B00AE40AF /* KCCircularTimer.h */,
+				0A7F9CCA2337EC3B00AE40AF /* KCCircleLayer.swift */,
+				0A7F9CCB2337EC3B00AE40AF /* KCCircularTimer.swift */,
+				0A7F9CCC2337EC3B00AE40AF /* Info.plist */,
+			);
+			path = KCCircularTimer;
+			sourceTree = "<group>";
+		};
+		0A7F9CD12337EC5800AE40AF /* KCCircularTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A7F9CD22337EC5800AE40AF /* Tests.swift */,
+				0A7F9CD32337EC5800AE40AF /* Info.plist */,
+			);
+			path = KCCircularTimerTests;
 			sourceTree = "<group>";
 		};
 		0AF9535B208315BC004B2767 = {
@@ -138,10 +156,7 @@
 		0AF95367208315BC004B2767 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0AF953712083164B004B2767 /* KCCircleLayer.swift */,
-				0AF953702083164B004B2767 /* KCCircularTimer.swift */,
-				0AF95368208315BC004B2767 /* KCCircularTimer.h */,
-				0AF95369208315BC004B2767 /* Info.plist */,
+				0A7F9CC82337EC3B00AE40AF /* KCCircularTimer */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -170,7 +185,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AF9536A208315BC004B2767 /* KCCircularTimer.h in Headers */,
+				0A7F9CCD2337EC3C00AE40AF /* KCCircularTimer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A4B6A9220B701FE00C6D7DC /* Tests.swift in Sources */,
+				0A7F9CD72337EC5800AE40AF /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,9 +363,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7F9CC6233732BB00AE40AF /* Package.swift in Sources */,
-				0AF953722083164B004B2767 /* KCCircularTimer.swift in Sources */,
-				0AF953732083164B004B2767 /* KCCircleLayer.swift in Sources */,
+				0A7F9CCF2337EC3C00AE40AF /* KCCircularTimer.swift in Sources */,
+				0A7F9CCE2337EC3C00AE40AF /* KCCircleLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,7 +614,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/KCCircularTimer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -628,7 +642,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/KCCircularTimer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
